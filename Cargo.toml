@@ -1,0 +1,25 @@
+// ============================================================================
+// 💻 Monero Miner with GPU (OpenCL) Support
+// 🔥 Built by GOR GEVORKYAN (https://github.com/BitCoinKing)
+// 🕒 Created: May 2025
+// 📄 License: MIT 
+// 💡 Contact: gor@gorgevorkyan.com | DEV 101 LABS
+// ============================================================================
+
+[package]
+name = "monero_miner"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+opencl3 = "0.6"
+tokio = { version = "1.37", features = ["full"] }
+clap = { version = "4.5.3", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
+console = "0.15"
+rand = "0.8"
+rayon = "1.8"
+indicatif = "0.17"
+num_cpus = "1.13"
